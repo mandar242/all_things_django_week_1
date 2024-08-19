@@ -1,0 +1,58 @@
+{%load static %}
+<html lang="en-US">
+   <head>
+       <meta charset="UTF-8">
+       <title>Home - Natty Mamtakim Store</title>
+       <link rel="stylesheet" id="ample-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
+       <style>
+        /* Center align images */
+        #header-logo-image, .header img {
+            text-align: center;
+        }
+        #header-logo-image img, .header img {
+            display: block;
+            margin: 0 auto;
+        }
+        </style>
+    </head>
+   <body class="wide" >   
+       <div id="page" class="hfeed site">
+           <header>
+               <div class="header">
+                   <div class="main-head-wrap inner-wrap clearfix">
+                       <div id="header-logo-image">
+                           <a href="/">
+                               <img src="{% static 'images/logo.png' %}" alt="Natty Mamtakim Store">
+                           </a>
+                       </div>
+                       <div id="header-text" class="">
+                           <h1 id="site-title">
+                               <a href="/" title="Natty Mamtakim Store" rel="home">Mamtakim Store</a>
+                           </h1>
+                           <p>Candy is what we live for</p>
+                       </div>
+                   </div>
+                   <img src="{% static 'images/store_anime.jpeg' %}"   width="600"   alt="Natty Mamtakim Store">
+               </div>
+           </header>
+           <div class="main-wrapper">
+               <div class="single-page clearfix">
+                   <div class="inner-wrap">
+                       <p>Nestled in the heart of the city, the Natty Mamtakim Store is a haven for chocolate lovers, offering an unparalleled experience for the senses. With its rich, cocoa-scented air and an inviting, rustic charm, the store is a delight for those seeking both classic and innovative confections. Each piece of chocolate is a masterpiece, crafted with meticulous care from the finest ingredients, and the shelves are lined with a dazzling array of flavors, from silky dark chocolate with sea salt to creamy milk chocolate infused with exotic spices. The Natty Mamtakim Store is not just a place to buy chocolate; it’s a destination where every visit is a sweet adventure.</p>
+                       <hr>
+                       <div>
+                       {% block content %}
+                       {% endblock %}
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <footer id="colophon">
+               <div class="inner-wrap">
+                   Nestled in the heart of the city, Natty Mamtakim Store is a chocolate lover's paradise. With its warm, inviting atmosphere, it offers a stunning selection of handcrafted chocolates, from rich dark varieties to creamy milk options. Each piece is crafted with the finest ingredients, making every visit a delightful adventure for the senses.
+               </div>
+           </footer>
+       </div>
+       <script src="{% static 'main.js' %}"> </script>
+   </body>
+</html>

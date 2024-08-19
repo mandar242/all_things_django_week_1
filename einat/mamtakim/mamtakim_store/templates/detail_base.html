@@ -1,0 +1,45 @@
+{%load static %}
+<html lang="en-US">
+   <head>
+       <meta charset="UTF-8">
+       <title>Home - Natty Mamtakim Store</title>
+       <link rel="stylesheet" id="ample-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
+       <style>
+        /* Center align images */
+        #header-logo-image, .header img {
+            text-align: center;
+        }
+        #header-logo-image img, .header img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    </head>
+   <body class="wide">
+       <div id="page" class="hfeed site">
+           <header>
+               <div class="header">
+                   <div class="main-head-wrap inner-wrap clearfix">
+                       <div id="header-logo-image">
+                           <a href="/">
+                               <img src="{% static 'images/logo.png' %}" alt="Natty Mamtakim Store">
+                           </a>
+                       </div>
+                       <div id="header-text" class="">
+                           <h1 id="site-title">
+                               <a href="/" title="Natty Mamtakim Store" rel="home">Mamtakim Detail Information</a>
+                           </h1>
+                           <p>Candy is what we live for</p>
+                       </div>
+                   </div>
+                   <img src="{% static 'images/pop1.jpeg' %}"   width="300"   alt="Natty Mamtakim Store">
+               </div>
+           </header>
+           {% block content %}
+           {% endblock %}
+           <footer id="colophon">
+           </footer>
+       </div>
+       <script src="{% static 'main.js' %}"> </script>
+   </body>
+</html>
