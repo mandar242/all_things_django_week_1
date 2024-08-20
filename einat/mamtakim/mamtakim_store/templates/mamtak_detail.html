@@ -1,0 +1,16 @@
+{% extends "detail_base.html" %}
+{% block content %}
+<h3>Mamtakim Detail </h3h3>
+<div>
+    <h3>{{ mamtak.name|capfirst }}</h3>
+    <p>
+    <h2>{{ mamtak.flavour}}</h2></p>
+    {% if mamtak.buyer %}
+        <p>Buyer: {{ mamtak.buyer }}</p>
+    {% endif %}
+    <p>{{ mamtak.description }}</p>
+    <button formnovalidate class="btn btn-purchase]" name="purchase" value="{{ mamtak.id }}">Purchase</button>
+    <button formnovalidate class="btn btn-cancel" name="cancel" value="{{ mamtak.id }}">Cancel</button>
+
+</div>
+{% endblock %}

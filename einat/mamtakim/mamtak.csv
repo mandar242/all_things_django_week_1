@@ -1,0 +1,21 @@
+Name,Buyer,Description,Flavour,Purchase_date,Ingredients
+Milk_bar,Pepe,100g of pure pleasure. Milk chocolate made with a glass and a half of milk. Chocolate Milk flavoured,M,11/28/2024 13:30,milk| cocoa| sugar| milk chocolate bar flavouring
+Dark_bar,Scooter,100g of pure pleasure. Dark chocolate made with a glass and a half of milk. 70% Cocoa solidsChocolate Milk flavoured,D,11/28/2024 14:45,milk| cocoa| sugar| dark chocolate bar flavouring
+White_bar,Zera,"100g of pure pleasure. White chocolate made with a glass and a half of milk. Only pure cocoa butter, sugar and  Milk",W,11/29/2024 13:15,milk| cocoa| sugar| white chocolate bar flavouring
+Ruby_bar,Oddball,"100g of pure pleasure. Ruby chocolate made with a glass and a half of milk. Ruby, the new cocoa of the future. Ruby Chocolate Milk flavoured",R,11/29/2024 10:00,milk| cocoa| sugar| ruby chocolate bar flavouring
+Milk_pop,Chyna,A chocolate you can hold on a stick!!! 100g of pure pleasure. Milk chocolate made with a glass and a half of milk. Chocolate Milk flavoured,M,11/29/2024 14:30,milk| cocoa| sugar| milk chocolate bar flavouring| pop stick
+Dark_pop,Rio,A chocolate you can hold on a stick!!! 100g of pure pleasure. Dark chocolate made with a glass and a half of milk. 70% Cocoa solidsChocolate Milk flavoured,D,11/28/2024 10:15,milk| cocoa| sugar| dark chocolate bar flavouring| pop stick
+White_pop,Nadalee,"A chocolate you can hold on a stick!!! 100g of pure pleasure. White chocolate made with a glass and a half of milk. Only pure cocoa butter, sugar and  Milk",W,11/28/2024 16:00,milk| cocoa| sugar| white chocolate bar flavouring| pop stick
+Ruby_pop,Scout,"A chocolate you can hold on a stick!!! 100g of pure pleasure. Ruby chocolate made with a glass and a half of milk. Ruby, the new cocoa of the future. Ruby Chocolate Milk flavoured",R,11/28/2024 9:00,milk| cocoa| sugar| ruby chocolate bar flavouring| pop stick
+Milk_praline,Wesley,"A praline, filled with amazing gooy goodness. Kids will love it, you will enjoy it. Milk choclate coating",M,11/29/2024 16:00,milk| cocoa| sugar| milk chocolate bar flavouring| strawberries
+Dark_praline,Pax,"A praline, filled with amazing gooy goodness. Kids will love it, you will enjoy it. Dark choclate coating",D,11/29/2024 8:30,milk| cocoa| sugar| dark chocolate bar flavouring| lemons
+White_praline,Sami,"A praline, filled with amazing gooy goodness. Kids will love it, you will enjoy it. White choclate coating",W,12/1/2024 13:00,milk| cocoa| sugar| white chocolate bar flavouring| coconut
+Ruby_Praline,Casper,"A praline, filled with amazing gooy goodness. Kids will love it, you will enjoy it. Ruby choclate coating",R,12/1/2024 11:30,milk| cocoa| sugar| ruby chocolate bar flavouring| coconut
+Milk_Doll,Tibbs,A beautifully shaped chocolate doll. Milk flavour,M,12/1/2024 8:45,milk| cocoa| sugar
+Dark_Doll,Stich,A beautifully shaped chocolate doll. Dark flavour,D,12/2/2024 13:30,milk| cocoa| sugar
+White_Doll,Fluffy,A beautifully shaped chocolate doll. White chocolate flavour,W,11/29/2024 11:45,milk| cocoa| sugar
+Ruby_Doll,Squiggles,A beautifully shaped chocolate doll. Ruby choclate flavour,R,11/30/2024 10:15,milk| cocoa| sugar| ruby chocolate bar flavouring
+Milk_Puppy,Lucky,The cutest puppy you will ever see. Milk flavour,M,11/30/2024 11:30,milk| cocoa| sugar| milk chocolate bar flavouring
+Dark_Puppy,Bailey,The cutest puppy you will ever see. Dark chocolate flavour,D,11/30/2024 14:30,milk| cocoa| sugar| dark chocolate bar flavouring
+White_Puppy,Kiko,The cutest puppy you will ever see. White chocloate flavour,W,11/30/2024 15:45,milk| cocoa| sugar| white chocolate bar flavouring
+Ruby_Puppy,Shadow,"The cutest puppy you will ever see. Ruby, sour flavour",R,12/2/2024 10:15,milk| cocoa| sugar| ruby chocolate bar flavouring

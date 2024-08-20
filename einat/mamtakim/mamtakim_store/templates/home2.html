@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="post" action="{% url 'index' %}">
+{% csrf_token %}
+<table class="table table-bordered table-light">
+<tr><th>Name</th><th>Buyer</th><th>Description</th><th>Flavour</th><th>Purchase_date</th><th>Ingredients</th><</tr>
+{% if not form.instance.id %}
+<tr>
+  {% include 'save.html' %}
+</tr>
+{% endif %}
+{% for mamtak in mamtakim %}
+  <tr>
+    {% if form.instance.id == mamtak.id %}
+    {% include 'save.html' %}
+    {% else %}
+    <td>{{ mamtak.name }}</td>
+    <td>{{ mamtak.buyer }}</td>
+    <td>{{ mamtak.description }}</td>
+    <td>{{ mamtak.flavour }}</td>
+    <td>{{ mamtak.purchase_date }}</td>
+    <td>{{ mamtak.ingredients }}</td>
+    <td>
+      <button formnovalidate class="btn btn-success" name="edit" value="{{ mamtak.id }}">Edit</button>
+      <button formnovalidate class="btn btn-danger" name="delete" value="{{ mamtak.id }}">Delete</button>
+    </td>
+    {% endif %}
+  </tr>
+{% endfor %}
+</table>
+</form>
+{% endblock %}

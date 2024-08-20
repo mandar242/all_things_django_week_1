@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post" action="{% url 'index' %}">
+<div>
+    {% for mamtak in mamtakim %}
+    <div class="mamtakname">
+        <a href="{% url 'mamtak_detail' mamtak.id %}">
+        <h3>{{ mamtak.name|capfirst }}</h3>
+        </a>
+        <td>
+            <button formnovalidate class="btn btn-success" name="edit" value="{{ mamtak.id }}">Edit</button>
+            <button formnovalidate class="btn btn-danger" name="delete" value="{{ mamtak.id }}">Delete</button>
+          </td>      
+        <p><h3>{{ mamtak.flavour}}</h3></p>
+        {% if mamtak.buyer %}
+            <p>Buyer: {{ mamtak.buyer }}</p>
+        {% endif %}
+        <p>{{ mamtak.description }}</p>
+
+    </div>
+
+    {% endfor %}
+</div>
+</form>
+{% endblock %}
